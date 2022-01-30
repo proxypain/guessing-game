@@ -1,4 +1,8 @@
 import random
+import pyfiglet
+
+ascii_banner = pyfiglet.figlet_format("PROXYS GUESSING GAME")
+print(ascii_banner)
 
 number = random.randint(1, 999)
 
